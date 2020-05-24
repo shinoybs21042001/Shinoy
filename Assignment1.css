@@ -1,0 +1,145 @@
+* {
+  box-sizing:border-box;
+  overflow: auto;
+  }
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+
+.A {
+   background-color: pink;
+   text-align: center;
+   border: 1px solid black;
+   width: 100px;
+   height: 30px;
+   position: relative;
+   padding: 0px;
+   margin-left: auto;
+   }
+
+.B {
+    background-color: blue;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    padding: 0px;
+    margin-left: auto;
+   }
+
+.C {
+    background-color: yellow;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    padding: 0px;
+    margin-left: auto;
+   }
+
+p {
+    margin-top: auto;
+    
+  }
+
+
+.chicken {
+    height: 150%;
+    width: 90%;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: darkgray;
+    color: black;
+    font-family: Helevertica;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    }
+
+.beef {
+    height: 150%;
+    width: 90%;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: darkgray;
+    color: black;
+    font-family: Helevertica;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    }
+
+.sushi {
+    height: 150%;
+    width: 90%;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: darkgray;
+    color: black;
+    font-family: Helevertica;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    }
+
+
+
+/********** In desktops **********/
+@media (min-width: 992px) {
+ .chicken, .beef, .sushi {
+    float: left;
+   
+  }
+  .chicken {
+    width: 33.32%;
+  }
+  .beef {
+    width: 33.32%;
+  }
+  .sushi {
+    width: 33.32%;
+  }
+ 
+}
+
+
+/********** In tablets **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .chicken, .beef, .sushi {
+   
+   
+  }
+  .chicken {
+    width: 24.9%;
+  }
+  .beef {
+    width: 24.9%;
+  }
+  .sushi {
+    width: 49.8%;
+  }
+ 
+}
+        /********** In mobiles **********/
+@media (max-width: 767px) {
+  .chicken, .beef, .sushi {
+    
+  }
+  .chicken {
+    width: 100%;
+  }
+  .beef {
+    width: 100%;
+  }
+  .sushi {
+    width:100%;
+  }
+ 
+}
+
